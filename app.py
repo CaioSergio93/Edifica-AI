@@ -17,7 +17,8 @@ load_dotenv()
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(page_title="Consultor de Engenharia JP", page_icon="🏗️")
 st.title("🏗️ Consultoria Técnica de Engenharia")
-st.caption("Baseado estritamente nas normas e leis municipais de João Pessoa")
+st.caption("Baseado estritamente nas normas e leis municipais de João Pessoa, Lei Municipal nº 1.347/1971 (Código de Obras)" \
+"Lei Complementar nº 155/2023, Lei Complementar nº 105/2017.")
 
 # --- CREDENCIAIS ---
 CLOUDFLARE_ACCOUNT_ID = os.getenv("CLOUDFLARE_ACCOUNT_ID")
